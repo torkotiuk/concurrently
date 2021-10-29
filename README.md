@@ -92,9 +92,8 @@ notes backend is running......'); }); }
 
 ---
 
-also add next line for using path on the beginning of the server.js
-
-- const path = require('path'); also add
+also add next line (const path = require('path');) for using path on the
+beginning of the server.js
 
 - c) in .env add NODE_ENV=production
 
