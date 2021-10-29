@@ -92,6 +92,10 @@ notes backend is running......'); }); }
 
 ---
 
+also add next line for using path on the beginning of the server.js
+
+- const path = require('path'); also add
+
 - c) in .env add NODE_ENV=production
 
 To sum up, in this case starting --- npm run server --- our frontend will work
