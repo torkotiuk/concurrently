@@ -1,3 +1,7 @@
+## To create build tool for starting back-, frontend concurrently choose ONE OF THE TWO WAYS:
+
+# =============================================== ================== FIRST WAY
+
 1. Create github clean project & clone to your pc
 2. Initialize your backend in root folder of your project by default --- npm
    init -y
@@ -99,3 +103,17 @@ beginning of the server.js
 
 To sum up, in this case starting --- npm run server --- our frontend will work
 on PORT of server
+
+# ===============================================
+
+===============================================
+
+================== SECOND WAY ==================
+
+1. Clone this repository
+2. Create .env file, choose PORT
+3. Choose development or production for NODE_ENV a) (development - when you
+   develop fron- & backend; b) production - when you build frontend by -npm run
+   build- in frontend folder and deploy github repository to heroku). Also when
+   we start only backend by -npm run server- our frontend will work on the same
+   port.
