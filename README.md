@@ -112,8 +112,10 @@ on PORT of server
 
 1. Clone this repository
 2. Create .env file, choose PORT
-3. Choose development or production for NODE_ENV a) (development - when you
-   develop fron- & backend; b) production - when you build frontend by -npm run
-   build- in frontend folder and deploy github repository to heroku). Also when
-   we start only backend by -npm run server- our frontend will work on the same
-   port.
+3. Choose development or production for NODE_ENV
+
+- a) development - when you develop fron- & backend (back- & frontend will work
+  in different ports)
+- b) production - when you build frontend by -npm run build- in frontend folder
+  and deploy github repository to heroku). Also when we start only backend by
+  -npm run server- our frontend will work on the same port.
