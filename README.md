@@ -112,7 +112,7 @@ on PORT of server
 
 1. Clone this repository
 2. Create .env file, choose PORT
-3. Choose development or production for NODE_ENV
+3. Choose development or production for NODE_ENV ("NODE_ENV=dev" - variable in .env)
 
 - a) development - when you develop fron- & backend (back- & frontend will work
   in different ports)
